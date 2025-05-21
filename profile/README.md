@@ -2,7 +2,7 @@
 ### About
 **ADS++** , is an open-source PyTorch-based toolbox that directly addresses these challenges by offering a modular, clinically-oriented, and highly interoperable suite of tools specifically designed for multimodal stroke imaging. Building upon our established Acute-stroke Detection Segmentation (ADS) framework, ADS++ provides a streamlined environment that encourages both the use of a complete, validated workflow and the flexible integration of its individual components with external tools and pipelines. The core philosophy of ADS++ is to deconstruct the monolithic toolkit into powerful, independently useful modules, each excelling at its specific task while maintaining seamless connectivity within the ADS++ workflow and with the broader neuroimaging ecosystem.
 
-**ADS++ allows you to:**
+ADS++ allows you to:
 
 *   **Effortlessly manage and standardize diverse multimodal stroke datasets** (DICOM, NIfTI, BIDS, remote S3/HTTP sources) through its adaptive **Ads-IO** module, eliminating cumbersome format conversions.
 *   **Implement robust and reproducible preprocessing pipelines** using **Ads-Prep**, incorporating tools like SynthStrip, ANTs, and TorchIO for tasks like skull stripping, registration, and normalization, with built-in quality control.
